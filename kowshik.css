@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    padding: 1.5rem 3rem;
+
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    height: 5vh;
+    padding-top: 1rem;
+   
+}
+.navbar a span:hover{
+    color: rgb(206, 163, 111);
+    transition: .4s;
+}
+
+.navbar a span{
+    color: aliceblue;
+    padding-left: 1em
+    ;
+}
+
+.navbar a{
+    color: aliceblue;
+   
+}
+
+.name p{
+   
+   color: rgb(206, 163, 111);
+    border-radius: 50%;
+    font-size:40px;
+    cursor: pointer;
+    background: transparent;
+    border:2px solid;
+    display: inline-flex;
+    height: 55px;
+    width: 55px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+   
+    
+}
+
+.navbar li{
+    background: transparent;
+    border: 2px solid rgb(206, 163, 111);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+
+}
+.navbar li.btn:hover{
+    background-color:rgb(206, 163, 111) ;
+    border: 2px solid transparent;
+    transition: .4s;
+    cursor: pointer;
+}
+.contain{
+    
+padding-top: 120px;
+}
+.contain .text{
+    margin-bottom: 50px;
+}
+.contain .text h1{
+    color: aliceblue;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin: 10px 0 20px;
+}
+.contain .text h3{
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 17px;
+}
+.contain .text p{
+    width: 500px;
+    max-width: 100%;
+    color: aliceblue;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(206, 163, 111);
+}
+.socialmedia a{
+
+    width: 38px;
+    height: 38px;
+    background-color: rgb(131, 131, 130);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+
+}
+.socialmedia{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 300px;
+}
+.socialmedia a:hover{
+transform: scale(1.1);
+background-color:rgb(206, 163, 111) ;
+transition: .4s;
+}
+
+.contain .text button{
+    color: aliceblue;
+    background:rgb(206, 163, 111) ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height:27px ;
+    padding: 8px 20px;
+    border: 2px solid rgb(206, 163, 111) ;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.contain .text button a{
+    color: aliceblue;
+}
+
+
+.contain .text button:hover{
+    background: transparent;
+    border: 2px solid rgb(206, 163, 111);
+    color: rgb(206, 163, 111);
+    transition: .4s;
+}
+.footer{
+    
+    margin-top: 150px;
+    
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.about{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../backgroud2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-height: 100vh;
+}
+
+.heading{
+    text-align: center;
+    font-size: 6vw;
+    color: aliceblue;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    margin-top: 5rem; 
+
+}
+
+.info h1{
+    font-size: 35px;
+    color: rgb(206, 163, 111);
+    margin-bottom: 1em;
+}
+
+.heading span{
+    text-transform: uppercase;
+    color: rgb(206, 163, 111);;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding: 2rem 6rem;
+
+}
+.box-c {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    
+}
+.box-c .box h3{
+    font-size: 1.1rem;
+    padding: 1rem 0;
+    font-weight: normal;
+    color: rgb(206, 163, 111);
+}
+
+.box-c .box span{
+    color: rgb(196, 194, 194);
+    font-weight: lighter;
+}
+
+.count-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.count-container .box{
+    padding: 3rem 4rem;
+    border-radius: .5rem;
+    background: transparent;
+    box-shadow:rgb(206, 163, 111);
+    
+}
+.count-container .box h3{
+    font-size: 4rem;
+    color: rgb(206, 163, 111);
+}
+.count-container .box p{
+padding-top: 1rem;
+font-size: 1.5rem;
+color: rgb(233, 190, 190);;
+}
+
+
+.contact{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../background3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+     color:white;
+     max-width: 500px;
+     line-height: 65px;
+     padding-left: 50px;
+     font-size: 18px;
+}
+
+.contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-form form{
+    padding-left: 140px;
+}
+ 
+
+
+
+.contact-form h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+
+.contact-form .text-box{
+    background:rgb(70, 67, 67);
+    color: white;
+    border: none;
+    height: 50px;
+    padding: 17px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+    width: 200px;
+}
+
+.contact-form textarea{
+
+    background: rgb(70, 67, 67);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 15px;
+    max-width: 400px;
+    max-height: 200px;
+    resize: vertical;
+   margin-bottom: 20px;
+    opacity: 0.9;
+    width: 100%;
+
+}
+
+
+
+.contact-form .send-btn{
+    
+    background:rgb(206, 163, 111) ;
+    color: aliceblue;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+ .send-btn:hover{
+    background: transparent;
+    border: 2px solid rgb(206, 163, 111);
+    color: rgb(206, 163, 111);
+    transition: .4s;
+}
+
+
+
+   
+
