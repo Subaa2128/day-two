@@ -336,4 +336,7 @@
     width: 100%;
     background-size: 100% 0.3em;
   }
+  .card:hover{
+    transform: scale(1.2);
+  }
   
